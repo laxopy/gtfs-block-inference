@@ -46,7 +46,7 @@ gtfs-block-inference/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/gtfs-block-inference.git
+git clone git@github.com:laxopy/gtfs-block-inference.git
 cd gtfs-block-inference
 ```
 
@@ -79,10 +79,7 @@ Organize your files like this:
 ```
 data/
 ├── gtfs/
-│   ├── trips.txt
-│   └── stop_times.txt
 └── history/
-    └── history.csv
 ```
 
 Make sure your `history.csv` has the required columns as listed above.
@@ -92,7 +89,7 @@ Make sure your `history.csv` has the required columns as listed above.
 ## ▶️ Run the Pipeline
 
 ```bash
-python scripts/run_pipeline.py
+python python -m scripts.run_pipeline
 ```
 
 This will:

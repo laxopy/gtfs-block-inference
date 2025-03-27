@@ -2,5 +2,8 @@ __pycache__/
 *.pyc
 .env/
 data/
-output/
 *.sqlite3
+.DS_Store
+venv
+logs/*
+output/*
